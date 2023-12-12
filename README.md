@@ -12,7 +12,7 @@ npm install
 
 Verifica si la configuració per defecte de Prettier, ESLint i Jest et convé. Si no, modifica els fitxers de configuració.
 
-## Part 1 - Callbacks i Operacions Asíncrones
+## Part 1 - Peticions asíncrones a una API
 
 ### Configuració ínicial
 
@@ -60,7 +60,7 @@ Per defecte si executem `node ./src/app.mjs` el servidor escoltarà a la ruta ht
 
 I veuràs que el servidor web respon amb el contingut de l'arxiu `index.html`.
 
-### Callbacks
+### API Rest
 
 Treballarem amb una API Rest que ens permetrà obtenir informació sobre països. La API és aquesta: https://restcountries.eu/. Pots consultar la documentació per veure com funciona. Per exemple, si volem obtenir informació sobre Espanya, podem fer una petició GET a la següent URL: https://restcountries.com/v3.1/name/spain. Si ho fas des del navegador veuràs que la resposta és un array amb un sol element, que és un objecte amb informació sobre Espanya.
 
